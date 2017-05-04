@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="lee.com.teachingsystemapplication.student.StudentInfoActivity">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名：" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学生1号" />
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="班级：" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="软件01班" />
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学号：" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="71400020012" />
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="年龄：" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19" />
+            </TableRow>
+            <TableRow android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="性别：" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="家庭住址："
+                android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/addressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="家庭住址"
+                android:enabled="false"
+                android:textColor="@color/tv_normal"
+                android:imeActionId="@+id/address" />
+        </LinearLayout>
+        <LinearLayout android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系方式："
+                android:layout_gravity="center"/>
+
+
+            <EditText
+                android:id="@+id/phoneEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="联系方式"
+                android:textColor="@color/tv_normal"
+                android:enabled="false"
+                android:imeActionId="@+id/phone"
+                android:inputType="phone"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="修改信息"
+            android:onClick="onEditClick"
+            />
+        <LinearLayout
+            android:id="@+id/viewEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/buttonDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onEditDoneClick"
+                android:text="完成"
+                />
+
+            <Button
+                android:id="@+id/buttonCancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onEditCancelClick"
+                android:text="取消"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonModifyPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onModifyPasswordClick"
+            android:text="修改密码"
+            />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="lee.com.teachingsystemapplication.student.KaoqinActivity"
+    tools:showIn="@layout/activity_kaoqin"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="到勤次数：15"
+        android:textColor="@color/tv_normal"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="迟到次数：3"
+        android:textColor="@color/tv_red"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="早退次数：2"
+        android:textColor="@color/tv_red"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="请假次数：1"
+        android:textColor="@color/tv_normal"
+        android:textSize="18sp" />
+
+</LinearLayout>
