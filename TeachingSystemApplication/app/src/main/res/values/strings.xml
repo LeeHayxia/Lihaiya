@@ -21,4 +21,9 @@
     <string name="title_activity_student_info">个人信息</string>
     <string name="title_activity_student_modify_pwd">修改密码</string>
     <string name="title_activity_course_grade">课程成绩</string>
+    <string name="title_activity_student_notice_list">公告</string>
+    <string name="title_activity_student_notice_detail">公告详情</string>
+    <string name="title_activity_student_apply_leave">申请假条</string>
+    <string name="title_activity_student_ask_list">StudentAskListActivity</string>
+    <string name="title_activity_student_ask">StudentAskActivity</string>
 </resources>

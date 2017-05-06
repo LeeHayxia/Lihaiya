@@ -84,6 +84,7 @@
                 android:gravity="center"
                 android:layout_margin="10dp"/>
             <TextView
+                android:id="@+id/applyLeaveText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -118,16 +119,19 @@
                 android:layout_weight="1">
 
                 <TextView
+                    android:id="@+id/askText"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="#068ca4"
+                    android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:textColor="@android:color/white"
-                    android:text="提问和答复"
-                    android:onClick="onClick"
+                    android:background="#068ca4"
                     android:gravity="center"
-                    android:layout_margin="10dp"/>
+                    android:onClick="onClick"
+                    android:text="提问和答复"
+                    android:textColor="@android:color/white" />
+
                 <TextView
+                    android:id="@+id/noticeTv"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#068ca4"

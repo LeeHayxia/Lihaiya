@@ -6,4 +6,7 @@
     <color name="title_bg">#14aebf</color>
     <color name="tv_normal">#353333</color>
     <color name="tv_red">#e71010</color>
+    <color name="tv_list_title">#353333</color>
+    <color name="tv_list_sub">#494747</color>
+    <color name="list_divider">#7b7b7b</color>
 </resources>

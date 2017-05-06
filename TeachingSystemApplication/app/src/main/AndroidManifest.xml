@@ -62,6 +62,46 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="lee.com.teachingsystemapplication.student.StudentMainActivity" />
         </activity>
+        <activity
+            android:name=".student.StudentNoticeListActivity"
+            android:label="@string/title_activity_student_notice_list"
+            android:parentActivityName=".student.StudentMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lee.com.teachingsystemapplication.student.StudentMainActivity" />
+        </activity>
+        <activity
+            android:name=".student.StudentNoticeDetailActivity"
+            android:label="@string/title_activity_student_notice_detail"
+            android:parentActivityName=".student.StudentNoticeListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lee.com.teachingsystemapplication.student.StudentNoticeListActivity" />
+        </activity>
+        <activity
+            android:name=".student.StudentApplyLeaveActivity"
+            android:label="@string/title_activity_student_apply_leave"
+            android:parentActivityName=".student.StudentMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lee.com.teachingsystemapplication.student.StudentMainActivity" />
+        </activity>
+        <activity
+            android:name=".student.StudentAskListActivity"
+            android:label="@string/title_activity_student_ask_list"
+            android:parentActivityName=".student.StudentMainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lee.com.teachingsystemapplication.student.StudentMainActivity" />
+        </activity>
+        <activity
+            android:name=".student.StudentAskActivity"
+            android:label="@string/title_activity_student_ask"
+            android:parentActivityName=".student.StudentAskListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="lee.com.teachingsystemapplication.student.StudentAskListActivity" />
+        </activity>
     </application>
 
 </manifest>

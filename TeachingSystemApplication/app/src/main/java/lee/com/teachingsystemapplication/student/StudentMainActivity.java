@@ -41,6 +41,15 @@ public class StudentMainActivity extends AppCompatActivity implements View.OnCli
             case R.id.courseGradeText:
                 startActivity(new Intent(this,CourseGradeActivity.class));
                 break;
+            case R.id.noticeTv:
+                startActivity(new Intent(this,StudentNoticeListActivity.class));
+                break;
+            case R.id.applyLeaveText:
+                startActivity(new Intent(this,StudentApplyLeaveActivity.class));
+                break;
+            case R.id.askText:
+                startActivity(new Intent(this,StudentAskListActivity.class));
+                break;
             default:
                 Toast.makeText(this,"暂未开放，敬请期待",Toast.LENGTH_LONG).show();
                 break;
